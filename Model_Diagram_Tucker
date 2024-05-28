@@ -7,4 +7,7 @@ graph TD;
     Implementation and unit testing-->Integration and system testing;
     Integration and system testing-->Operation and maintenance;
     Operation and maintenance-->Requirements definition;
+    Operation and maintenance-->System and software design;
+    Operation and maintenance-->Implementation and unit testing;
+    Operation and maintenance-->Intregation and system testing;
 ```

@@ -1,7 +1,9 @@
-echo "# Assignment2Processmodel" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Shadman259/Assignment2Processmodel.git
-git push -u origin main
+graph comparsion;
+    Requirements definition-->System and software design;
+    System and software design-->Implementation and unit testing;
+    Implementation and unit testing-->Integration and system testing;
+    Integration and system testing-->Operation and maintenance;
+    Operation and maintenance-->Requirements definition;
+    Operation and maintenance-->System and software design;
+    Operation and maintenance-->Implementation and unit testing;
+    Operation and maintenance-->Intregation and system testing;

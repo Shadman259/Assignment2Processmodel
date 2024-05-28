@@ -1,7 +1,10 @@
+Waterfall Model Diagram:
+
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Requirements definition-->System and software design;
+    System and software design-->Implementation and unit testing;
+    Implementation and unit testing-->Integration and system testing;
+    Integration and system testing-->Operation and maintenance;
+    Operation and maintenance-->Requirements definition;
 ```
